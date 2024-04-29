@@ -11,7 +11,7 @@ Each folder S{scan number} must contain the following files :
 corner_label.npy
 corner_label_index.json
 """
-folder_path = 'C:\\Users\\matth\\Desktop\\graph_test\\'
+folder_path = ''
 
 #The list of the scan number
 scans = [706, 764, 814, 833, 847, 872, 910, 949, 959]
