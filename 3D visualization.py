@@ -16,7 +16,7 @@ corner_label.npy
 corner_label_index.json
 """
 
-path = "C:\\Users\\matth\\Desktop\\bcdi_surface\\Ni_2022_forced_index\\S910\\surface_calculation\\Amplitude_variation\\Gradient\\nb_facets=26\\"
+path = ""
 
 
 #indicate the number of facets
