@@ -43,6 +43,9 @@ cmap_strain = 'bwr'
 #Choose the color of the backgroud
 background_color = 'black'
 
+#Choose whether or not you want to mix colours
+shuffle = False
+
 #Choose the angle of the first 3D view
 elev=100
 azim=90
@@ -73,7 +76,8 @@ def display(clustering_label, vmax, clustering_label_index = None):
         for j in range(N):
             for k in range(N):
                 list_colors.append((i*1/N, j*1/N, k*1/N, 1))
-    random.shuffle(list_colors)
+    if shuffle:
+        random.shuffle(list_colors)
 
     len_list_colors = len(list_colors)
     color_labels = []
